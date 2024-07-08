@@ -613,7 +613,7 @@ svg {
   display: block;
   width: 604px;
   height: 604px;
-  background: #EE4E78;
+  background: #FF9EB9;
   border-radius: 50%;
   -webkit-filter: blur(192px);
           filter: blur(192px);
@@ -649,7 +649,7 @@ svg {
 }
 @media screen and (max-width: 767px) {
   .main__img {
-    top: 94px;
+    top: 148px;
     right: auto;
     left: 50%;
     -webkit-transform: translate(-50%, 0) rotate(-50deg);
@@ -657,6 +657,10 @@ svg {
             transform: translate(-50%, 0) rotate(-50deg);
     width: 792px;
     height: 594px;
+  }
+  .main__img::before {
+    width: 436px;
+    height: 436px;
   }
 }
 
